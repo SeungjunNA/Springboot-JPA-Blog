@@ -15,7 +15,7 @@ import lombok.Getter;
 @Getter
 public class PrincipalDetail implements UserDetails{
 	private User user; // 콤포지션
-
+		
 	public PrincipalDetail(User user) {
 		this.user = user;
 	}
